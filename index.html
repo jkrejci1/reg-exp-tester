@@ -17,5 +17,14 @@
 
     <body>
         <h1>Regular Expression Tester</h1>
+
+        <!--Type in regular expression and string and press button to test-->
+        Test String: <input id="usrstr" type="text" value="" size="5"><br><br>
+        Regular Expression: <input id="regexp" type="text" value="" size="5"><br><br>
+        Press to Test: <button type="button" onclick="testExpression()">Test Expression</button><br><br>
+
+        <!--Output result of whether the string matched or not-->
+        <p id="check">Regular Expression (true or false)</p>
+
     </body>
 </html>
